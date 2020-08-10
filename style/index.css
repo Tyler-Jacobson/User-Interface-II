@@ -38,12 +38,18 @@ nav {
     display: flex;
     width: 100%;
     justify-content: center;
+
 }
 
 .nav_width {
     display: flex;
-    justify-content: space-evenly;
-    width: 40%;
+    justify-content: space-between;
+    width: 30%;
+    background-color: #A44849;
+    padding: 0.7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.2rem;
 }
 
 a {
