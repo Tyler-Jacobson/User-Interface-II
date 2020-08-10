@@ -46,15 +46,14 @@ nav {
     justify-content: space-between;
     width: 30%;
     background-color: #A44849;
-    padding: 0.7rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1%;
     border-radius: 0.2rem;
+    border: 1px solid #5A1838;
 }
 
 a {
     background-color: #C9806A;
-    padding: 1rem;
+    padding: 3.5%;
     border: 0.1rem solid #5A1838;
     border-radius: 1rem;
     box-shadow: -2px 2px #100110;
@@ -82,6 +81,10 @@ a:hover {
     width: 40%;
 }
 
+.section2 img {
+    border: 1px solid #5A1838;
+}
+
 .section3 {
     display: flex;
     align-items: center;
@@ -90,28 +93,84 @@ a:hover {
 .project_images {
     display: flex;
     justify-content: right;
+    background-color: #C9806A;
+    width: 70%;
+    border: 1px solid #5A1838;
+}
+
+.project_images img {
+    width: 20%;
+    margin: 2.5%;
+    border: 1px solid #5A1838;
 }
 
 .project_paragraph {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 30%;
     background: none;
+    border: 1px solid #5A1838;
+    border-left: none;
 }
 
-.project_images img {
-    width: 40%;
-    margin: 0.5rem;
+.project_paragraph {
+    display: flex;
+    justify-content: center;
+    background-color: #A44849;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-
+.project_paragraph p {
+    margin: 0 auto;
+    background-color: #A44849;
+}
 
 footer {
     display: flex;
     width: 100%;
-    height: 10vh;
-    align-items: center;
     justify-content: center;
 }
 
+.footer_width {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    background-color: #A44849;
+    padding: 0.5%;
+    border-radius: 0.2rem;
+    border: 1px solid #5A1838;
+    margin: 0.5%;
+}
+
+@media (max-width: 1000px) {
+
+    .nav_width {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: column wrap;
+        width: 20%;
+        background-color: #A44849;
+        padding: 1%;
+        border-radius: 0.2rem;
+    }
+
+    .nav_width a {
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        margin-top: 3%;
+    }
+
+}
+
+@media (max-width: 800px) {
+    
+    
+}
+
+@media (max-width: 500px) {
+
+}
