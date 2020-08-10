@@ -13,7 +13,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {  
 margin: 0;  
 padding: 0;  
-border: 1px solid maroon;
+border: 1px solid green;
 border: none;  
 font-size: 100%;  
 font: inherit;  
@@ -112,14 +112,9 @@ a:hover {
     background: none;
     border: 1px solid #5A1838;
     border-left: none;
-}
-
-.project_paragraph {
-    display: flex;
-    justify-content: center;
-    background-color: #A44849;
     padding-top: 5%;
     padding-bottom: 5%;
+    background-color: #A44849;
 }
 
 .project_paragraph p {
@@ -172,5 +167,55 @@ footer {
 }
 
 @media (max-width: 500px) {
+
+    .section2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section2 img {
+        width: 90%;
+    }
+
+    .section3 {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .section3 .project_images {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 85%;
+        margin: 1%;
+    }
+
+    .section3 .project_images img {
+        width: 43%;
+    }
+
+    .project_paragraph {
+        width: 45%;
+    }
+
+    .project_paragraph p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 80%;
+    }
+
+    footer {
+        margin-top: 1%;
+        padding: 5%;
+        background-color: #C9806A;
+    }
+
+    .footer_width {
+        width: 30%;
+        padding: 1%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
 
 }
